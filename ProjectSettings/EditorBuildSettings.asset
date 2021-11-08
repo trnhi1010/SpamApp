@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SmashTile.unity
-    guid: 24cfa7bfae169fd459a6b834721bbad0
+    path: Assets/Scenes/CoinDigger.unity
+    guid: d5123935b217d964089e3aa6bce96096
   m_configObjects: {}
