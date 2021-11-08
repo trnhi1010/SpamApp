@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ce680d22cf0654db9b9edfbe923008, type: 3}
+  m_Name: Number
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: ONE
+    CharacterSprite: {fileID: 21300000, guid: ab7920f6c37257948bfa2250db6b5fac, type: 3}
+  - characterName: TWO
+    CharacterSprite: {fileID: 21300000, guid: 7a084b8805c8db14dacf3ec6cc3b22a7, type: 3}
+  - characterName: THREE
+    CharacterSprite: {fileID: 21300000, guid: d6bdf337bb65c1b48b52724f7cb7b055, type: 3}
+  - characterName: FOUR
+    CharacterSprite: {fileID: 21300000, guid: 92acdbe6fc614f2409020d0aae3491b7, type: 3}
+  - characterName: FIVE
+    CharacterSprite: {fileID: 21300000, guid: edc7433afc0732947a75b233d1187f4d, type: 3}
+  - characterName: SIX
+    CharacterSprite: {fileID: 21300000, guid: b018593334ccbff4a8e87cd99bec2141, type: 3}
+  - characterName: SEVEN
+    CharacterSprite: {fileID: 21300000, guid: af2c7d7053edaae4aa75863008372d0d, type: 3}
+  - characterName: EIGHT
+    CharacterSprite: {fileID: 21300000, guid: 3714392fba418c447bec5ce56ab67d0e, type: 3}
+  - characterName: NINE
+    CharacterSprite: {fileID: 21300000, guid: c6b27c4aab8ec294194fdb1d7caa0956, type: 3}
