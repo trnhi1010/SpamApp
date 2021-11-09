@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CoinDigger.unity
-    guid: d5123935b217d964089e3aa6bce96096
+    path: Assets/Scenes/UStep.unity
+    guid: 68858017a8842cd4aba76095de236dda
   m_configObjects: {}

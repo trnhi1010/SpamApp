@@ -10,18 +10,18 @@ public class IAP_Item_Base : MonoBehaviour
     internal int _productID;
 
     private List<string> id = new List<string>() {
-        "smashtile_smash_1.1",
-        "smashtile_smash_1.2",
-        "smashtile_smash_1.3",
-        "smashtile_smash_1.4",
-        "smashtile_smash_1.5",
-        "smashtile_smash_1.6",
-        "smashtile_tilee_2.1",
-        "smashtile_tilee_2.2",
-        "smashtile_tilee_2.3",
-        "smashtile_tilee_2.4",
-        "smashtile_tilee_2.5",
-        "smashtile_tilee_2.6"
+        "breathtraining_brea_1.1",
+        "breathtraining_brea_1.2",
+        "breathtraining_brea_1.3",
+        "breathtraining_brea_1.4",
+        "breathtraining_brea_1.5",
+        "breathtraining_brea_1.6",
+        "breathtraining_trai_2.1",
+        "breathtraining_trai_2.2",
+        "breathtraining_trai_2.3",
+        "breathtraining_trai_2.4",
+        "breathtraining_trai_2.5",
+        "breathtraining_trai_2.6"
     };
 
 
