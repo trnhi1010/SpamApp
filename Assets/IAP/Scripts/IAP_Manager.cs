@@ -13,18 +13,18 @@ public class IAP_Manager : MonoBehaviour, IStoreListener
     Action<bool> callBackBuyProduct;
 
     private List<string> id = new List<string>() {
-        "breathtraining_brea_1.1",
-        "breathtraining_brea_1.2",
-        "breathtraining_brea_1.3",
-        "breathtraining_brea_1.4",
-        "breathtraining_brea_1.5",
-        "breathtraining_brea_1.6",
-        "breathtraining_trai_2.1",
-        "breathtraining_trai_2.2",
-        "breathtraining_trai_2.3",
-        "breathtraining_trai_2.4",
-        "breathtraining_trai_2.5",
-        "breathtraining_trai_2.6"
+        "mymeow_meo_1.1",
+        "mymeow_meo_1.2",
+        "mymeow_meo_1.3",
+        "mymeow_meo_1.4",
+        "mymeow_meo_1.5",
+        "mymeow_meo_1.6",
+        "mymeow_eow_2.1",
+        "mymeow_eow_2.2",
+        "mymeow_eow_2.3",
+        "mymeow_eow_2.4",
+        "mymeow_eow_2.5",
+        "mymeow_eow_2.6"
     };
 
     void Start()
