@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SpamAppScene.unity
-    guid: f29cedbfd16932946871925d9fb1d65c
+    path: Assets/Scenes/Funtaxi.unity
+    guid: 73de1d7ff71a92f42887a6fbb4290bb2
   m_configObjects: {}

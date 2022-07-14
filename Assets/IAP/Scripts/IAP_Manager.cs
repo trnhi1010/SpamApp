@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -201,4 +202,5 @@ public struct IAP_Product
     public ProductType _Type;
     public string _SubscriptionName;
 }
+*/
 

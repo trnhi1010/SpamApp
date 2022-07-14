@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -124,3 +125,4 @@ public class IAP_Item_Base : MonoBehaviour
     }
 
 }
+*/

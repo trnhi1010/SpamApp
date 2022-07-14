@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1532855054654302820}
   - component: {fileID: 1532855054654302821}
   - component: {fileID: 1532855054654302822}
-  - component: {fileID: 1532855054654302823}
   - component: {fileID: 65743975026839657}
+  - component: {fileID: 7098373928452826877}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -62,15 +62,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -123,20 +123,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855054654302823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855054654302817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &65743975026839657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +138,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &7098373928452826877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855054654302817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 1
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855054660680652
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,8 +164,8 @@ GameObject:
   - component: {fileID: 1532855054660680695}
   - component: {fileID: 1532855054660680688}
   - component: {fileID: 1532855054660680689}
-  - component: {fileID: 1532855054660680690}
   - component: {fileID: 4860980240296504731}
+  - component: {fileID: 6460664374536193383}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -214,15 +214,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -275,20 +275,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855054660680690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855054660680652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &4860980240296504731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,6 +290,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &6460664374536193383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855054660680652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 8
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855054660926369
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 1532855054904061320}
   - component: {fileID: 6179206565552243782}
   - component: {fileID: 1532855054904061327}
-  - component: {fileID: 2841516178114593280}
+  - component: {fileID: 7120658755204650139}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 0
---- !u!114 &2841516178114593280
+--- !u!114 &7120658755204650139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -717,9 +717,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1532855054904061321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e129d97dab96a3a4fb9315d6f886e85a, type: 3}
+  m_Script: {fileID: 11500000, guid: 05781c2bed6fb3c489aefb2e763bac8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _arrProducts: []
+  x: 
+  y: 
+  z: 
 --- !u!1 &1532855055161598609
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,8 +815,8 @@ GameObject:
   - component: {fileID: 1532855055283404909}
   - component: {fileID: 1532855055283404910}
   - component: {fileID: 1532855055283404911}
-  - component: {fileID: 1532855055283404904}
   - component: {fileID: 4189709517237033073}
+  - component: {fileID: 7310573670372240049}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -861,15 +865,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -922,20 +926,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855055283404904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855055283404906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &4189709517237033073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,6 +941,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &7310573670372240049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855055283404906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 10
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855055335608565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,8 +1125,8 @@ GameObject:
   - component: {fileID: 1532855055537812796}
   - component: {fileID: 1532855055537812797}
   - component: {fileID: 1532855055537812798}
-  - component: {fileID: 1532855055537812799}
   - component: {fileID: 2284201311365925232}
+  - component: {fileID: 1535071744075705790}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -1171,15 +1175,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1232,20 +1236,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855055537812799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855055537812793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &2284201311365925232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,6 +1251,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &1535071744075705790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855055537812793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 4
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855055626455679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,15 +1326,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16927561, g: 0.0047169924, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b324a4685d480b346b084e8a5dbacbde, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1445,8 +1449,8 @@ GameObject:
   - component: {fileID: 1532855055822450034}
   - component: {fileID: 1532855055822450035}
   - component: {fileID: 1532855055822449996}
-  - component: {fileID: 1532855055822449997}
   - component: {fileID: 1110218575507823586}
+  - component: {fileID: 2470932380810477751}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -1495,15 +1499,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1556,20 +1560,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855055822449997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855055822449999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &1110218575507823586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1585,6 +1575,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &2470932380810477751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855055822449999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 5
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855055943871602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,6 +1648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: {fileID: 1532855056146060978}
+  music: []
   ScenePlay: 
 --- !u!1 &1532855055993789284
 GameObject:
@@ -1657,8 +1662,8 @@ GameObject:
   - component: {fileID: 1532855055993789295}
   - component: {fileID: 1532855055993789288}
   - component: {fileID: 1532855055993789289}
-  - component: {fileID: 1532855055993789290}
   - component: {fileID: 6427972691540860884}
+  - component: {fileID: 7711076821233084396}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -1707,15 +1712,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1768,20 +1773,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855055993789290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855055993789284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &6427972691540860884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1797,6 +1788,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &7711076821233084396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855055993789284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 7
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855056002172492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +1974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1532855056146060977
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2018,8 +2023,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 75a1c0e86fd278e438c0e6dda9d0cdf8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2119,8 +2124,8 @@ GameObject:
   - component: {fileID: 1532855056302270142}
   - component: {fileID: 1532855056302270143}
   - component: {fileID: 1532855056302270136}
-  - component: {fileID: 1532855056302270137}
   - component: {fileID: 529553000090870545}
+  - component: {fileID: 3249306889686030156}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -2169,15 +2174,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2230,20 +2235,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855056302270137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855056302270139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &529553000090870545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2259,6 +2250,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &3249306889686030156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855056302270139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 0
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855056417074603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,8 +2507,8 @@ GameObject:
   - component: {fileID: 1532855056519049969}
   - component: {fileID: 1532855056519049970}
   - component: {fileID: 1532855056519049971}
-  - component: {fileID: 1532855056519049932}
-  - component: {fileID: 4833863513196323541}
+  - component: {fileID: 8782530941751184034}
+  - component: {fileID: 6180896444645021050}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -2552,15 +2557,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2613,7 +2618,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855056519049932
+--- !u!114 &8782530941751184034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2622,12 +2627,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1532855056519049934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _productID: 0
+  _productID: 11
   _iapManager: {fileID: 0}
---- !u!114 &4833863513196323541
+--- !u!114 &6180896444645021050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2709,7 +2714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 576016573528b7c4884cc4d19fc5bc79, type: 3}
+  m_Sprite: {fileID: 7664807735657788756, guid: a00b495245d506440980467730c1f7a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2787,8 +2792,8 @@ GameObject:
   - component: {fileID: 1532855056640593689}
   - component: {fileID: 1532855056640593690}
   - component: {fileID: 1532855056640593691}
-  - component: {fileID: 1532855056640593684}
   - component: {fileID: 6890580572446489690}
+  - component: {fileID: 3696758115574883241}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -2837,15 +2842,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2898,20 +2903,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855056640593684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855056640593686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &6890580572446489690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2927,6 +2918,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &3696758115574883241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855056640593686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 9
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855056723406690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,8 +2944,8 @@ GameObject:
   - component: {fileID: 1532855056723406693}
   - component: {fileID: 1532855056723406694}
   - component: {fileID: 1532855056723406695}
-  - component: {fileID: 1532855056723406688}
   - component: {fileID: 2144746123323718517}
+  - component: {fileID: 9218002270346107383}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -2989,15 +2994,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3050,20 +3055,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855056723406688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855056723406690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &2144746123323718517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,6 +3070,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &9218002270346107383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855056723406690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 3
+  _iapManager: {fileID: 0}
 --- !u!1 &1532855056756174214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,8 +3191,8 @@ GameObject:
   - component: {fileID: 1532855056786895607}
   - component: {fileID: 1532855056786895600}
   - component: {fileID: 1532855056786895601}
-  - component: {fileID: 1532855056786895602}
   - component: {fileID: 5242529776847566636}
+  - component: {fileID: 4290827061594175792}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -3236,15 +3241,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3297,20 +3302,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1532855056786895602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532855056786895564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &5242529776847566636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,6 +3317,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &4290827061594175792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532855056786895564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 2
+  _iapManager: {fileID: 0}
 --- !u!1 &2963754810106866383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,8 +3422,8 @@ GameObject:
   - component: {fileID: 2330868863084199437}
   - component: {fileID: 8460336633081896125}
   - component: {fileID: 2948444190748557272}
-  - component: {fileID: 706613950189828052}
   - component: {fileID: 1115954749349202808}
+  - component: {fileID: 6796317444657949212}
   m_Layer: 5
   m_Name: IAP Button
   m_TagString: Untagged
@@ -3467,15 +3472,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3528,20 +3533,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &706613950189828052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4238013369686486529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e8ebef42b57f646b5b3f03f8e23cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _productID: 0
-  _iapManager: {fileID: 0}
 --- !u!114 &1115954749349202808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3557,3 +3548,17 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
+--- !u!114 &6796317444657949212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4238013369686486529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed1c9512ff2b245bf1c1ef3fe1db56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _productID: 6
+  _iapManager: {fileID: 0}
